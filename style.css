@@ -66,7 +66,7 @@ section{
     display: flex;
     font-family: Inter,sans-serif;
     font-size: 16px;
-    height: 40px;
+    height: 42px;
     justify-content: center;
     line-height: 24px;
     max-width: 100%;
@@ -84,7 +84,7 @@ section{
     border-radius: 8px;
     content: "";
     display: block;
-    height: 40px;
+    height: 42px;
     left: 0;
     width: 100%;
     position: absolute;
