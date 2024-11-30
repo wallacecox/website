@@ -1,0 +1,119 @@
+body{
+    font-family: Helvetica, sans-serif;
+    height: 615px;
+    margin: 30px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+
+body nav ul > li{
+    padding-right: 50px;
+    height: 100px;
+}
+
+body > nav ul > li+li{
+    border-right: none;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2{
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+}
+
+h3{
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer nav ul > li+li+li{
+    border-right: none;
+}
+
+img{
+    width: 160px;
+    float: right;
+    border-radius: 10px;
+}
+
+section{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.button-56 {
+    align-items: center;
+    background-color: #ffd8fa;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-56 {
+      padding: 0 40px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+}
